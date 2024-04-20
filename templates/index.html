@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flask app</title>
+        <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> -->
+        <style>
+            body{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            #container{
+                width:1200px;
+                margin: 0 auto;
+            }
+            h1{
+                font-size: 40px;
+                color: rgba(40, 40, 40, 1);
+                text-align: center;
+            }
+            img{
+                width: 100%;
+                height:360px;
+                object-fit: cover;
+            }
+            h2{
+                text-align: center;
+                color: rgba(40, 40, 40, 1);
+            }
+            #about{
+                text-align: left;
+                width: 900px;
+                margin: auto;
+                color: rgba(40, 40, 40, 1);
+                font-size: 18px;
+            }
+            #button{
+                text-align: center;
+                margin: auto;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div id="container">
+            <h1>LinkedIn</h1>
+            <img src="/static/banner.jpeg" alt="View my profile on LinkedIn">
+            <h2>About LinkedIn</h2>
+            <p id="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+            <h2>Job openings</h2>
+            <div id="button">
+                <button>Contact</button>
+            </div>
+
+        </div>
+    </body>
+</html>
